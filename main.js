@@ -48,3 +48,12 @@ function test() {
 }
 
 test()
+
+// Example Cancellation axios
+// Cancellation.cancelLastRequest('ListUsers')
+// let response = await axios({
+//     method: 'GET',
+//     url: api.ListUsers,
+//     params: options,
+//     cancelToken: Cancellation.getToken('ListUsers'),
+// })
